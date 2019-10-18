@@ -10,10 +10,13 @@ In this lab you will us the automated machine learning (Auto ML) capabilities wi
     <img src="images/code.jpg"/><br/>
 4. Select `04-automl` folder which is under `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\`<br/>
     <img src="images/auto.jpg"/><br/>
-5. Select the `04-automl.py` python file from **Explorer**
+```
+Please install if you are prompted to install Python. Ignore other extensions because we don't require for this lab.
+```
+5. Select the `04-automl.py` python file from **Explorer**<br/>
 6. For Interpreter command go to **View** and Select **Command Palette** (⇧⌘P).<br/>
     <img src="images/lab26.jpg"/><br/>
-7. Click on **Python: Select Interpreter**. This will take 4-5 minutes<br/>
+7. Click on **Python: Select Interpreter**. This may take 4-5 minutes<br/>
     <img src="images/select.jpg"/><br/>
 8.  Once you setup the python interpreter, select conda environmen `azure_automl`<br/>
     <img src="images/python.jpg"/><br/>
