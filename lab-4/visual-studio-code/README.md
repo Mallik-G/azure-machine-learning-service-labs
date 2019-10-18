@@ -25,8 +25,7 @@ Please install if you are prompted to install Python. Ignore other extensions be
    <img src="images/lab04.jpg"/><br/>
 
 ## Exercise 2 - Train a model using AutoML
-This lab built upon the lessons learned in the previous lab but is self-contained so you work through this lab without having to run a previous lab.
-
+This lab built upon the lessons learned in the previous lab but is self-contained so you work through this lab without having to run a previous lab.<br/>
 1. Begin with **Step 1**. In this step you are loading the data prepared in previous labs and acquiring (or creating) an instance of your Azure Machine Learning Workspace. In this step, Get the values for `subscription_id`, `resource_group` and `workspace_region`from your **Environment Detail Page**<br/>
    <img src="images/cred2.jpg"/><br/>
 2. Set the values for subscription_id, resource_group, workspace_name and workspace_region.<br/>
