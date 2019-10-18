@@ -11,7 +11,10 @@ In this lab you will setup the Azure Machine Learning service from code and crea
     <img src="images/code.jpg"/><br/>
 5. Select `01-model-training` folder which is under `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\`
     <img src="images/visual.jpg"/><br/>
-6. Select the `01_model_training.py` python file from **Explorer**
+```
+Please install if you are prompted to install Python. Ignore other extensions because we don't require for this lab.
+```
+6. Select the `01_model_training.py` python file from **Explorer**<br/>
     <img src="images/visual1.jpg"/><br/>
 7. For Interpreter command go to **View** and Select **Command Palette** (⇧⌘P).<br/>
     <img src="images/vs1.jpg"/><br/>
