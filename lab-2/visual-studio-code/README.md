@@ -27,7 +27,7 @@ Please install if you are prompted to install Python. Ignore other extensions be
     <img src="images/lab02.jpg"/><br/>
 
 ## Exercise 2 - Train a simple model locally
-This lab builds upon the lessons learned in the previous lab, but is self contained so you work thru this lab without having to run a previous lab. As such Steps 1, 2 and 3 in the lab are not explored in detail as their goal is to setup a few experiment runs, which was covered in detail in Lab 1.
+This lab builds upon the lessons learned in the previous lab, but is self contained so you work thru this lab without having to run a previous lab. As such Steps 1, 2 and 3 in the lab are not explored in detail as their goal is to setup a few experiment runs, which was covered in detail in Lab 1.<br/>
 1. Execute **Step 1**. Take a moment to look at the data loaded into the Pandas Dataframe - it contains data about used cars such as the price (in dollars), age (in years), KM (kilometers driven) and other attributes like weather it is automatic transimission, the number of doors, and the weight.<br/>
     <img src="images/lab4.jpg"/><br/>
 2. In **Step 2**, we will define a helper method that locally trains, evaluates and then registers the trained model with Azure Machine Learning. **Execute** Step #2.<br/>
