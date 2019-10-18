@@ -13,7 +13,6 @@ In this lab you will us the automated machine learning (Auto ML) capabilities wi
 ```
 Please install if you are prompted to install Python. Ignore other extensions because we don't require for this lab.
 ```
-
 5. Select the `04-automl.py` python file from **Explorer**<br/>
 6. For Interpreter command go to **View** and Select **Command Palette** (⇧⌘P).<br/>
     <img src="images/lab26.jpg"/><br/>
@@ -38,7 +37,7 @@ This lab built upon the lessons learned in the previous lab but is self-containe
    <img src="images/pass.jpg"/><br/>
 4. Check the Output in **Python Interactive**<br/>
    <img src="images/lab21.jpg"/><br/>
-5. To train a model using **AutoML** you need only provide a configuration for AutoML that defines items such as the type of model (classification or regression), the performance metric to optimize, exit criteria in terms of max training time and iterations and desired performance, any algorithms that should not be used, and the path into which to output the results. This configuration is specified using the `AutomMLConfig` class, which is then used to drive the submission of an experiment via `experiment.submit`.  When AutoML finishes the parent run, you can easily get the best performing run and model from the returned run object by using `run.get_output()`. **Execute** Step 2 to define the helper function that wraps the AutoML job submission.<br/>
+5. To train a model using **AutoML** you need only provide a configuration for AutoML that defines items such as the type of model (classification or regression), the performance metric to optimize, exit criteria in terms of max training time and iterations and desired performance, any algorithms that should not be used, and the path into which to output the results. This configuration is specified using the `AutomMLConfig` class, which is then used to drive the submission of an experiment via `experiment.submit`. When AutoML finishes the parent run, you can easily get the best performing run and model from the returned run object by using `run.get_output()`. **Execute** Step 2 to define the helper function that wraps the AutoML job submission.<br/>
    <img src="images/lab22.jpg"/><br/>
 6. In **Step 3**, you invoke the AutoML job. **Execute** Step 3.<br/>
    <img src="images/lab23.jpg"/><br/>
@@ -46,5 +45,6 @@ This lab built upon the lessons learned in the previous lab but is self-containe
    <img src="images/lab24.jpg"/><br/>
 
 ## Exercise 3 - Register an AutoML created model
+
 1. You can register models created by **AutoML** with Azure Machine Learning just as you would any other model. **Execute** Step 5 to register this model.<br/>
    <img src="images/lab25.jpg"/><br/>
