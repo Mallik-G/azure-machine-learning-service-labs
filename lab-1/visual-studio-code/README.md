@@ -54,7 +54,7 @@ In the steps that follow, you will train multiple models using different sizes o
    <img src="images/sign.jpg"/><br/>
 5. Copy the **Password** from **Environment Detali Page** and Paste in Sign in page<br/>
    <img src="images/pass.jpg"/><br/>   
-6. Check the Output in **Python Interactive**
+6. Check the Output in **Python Interactive**<br/>
    <img src="images/vs13.jpg"/><br/>
 7. To begin capturing metrics, you must first create an Experiment and then call `start_logging()` on that Experiment. The return value of this call is a Run. This root run can have other child runs. When you are finished with an experiment run, use `complete()` to close out the root run. Execute **Step 10** to train four different models using differing amounts of training data and log the results to Azure Machine Learning.<br/>
    <img src="images/vs14.jpg"/><br/>
