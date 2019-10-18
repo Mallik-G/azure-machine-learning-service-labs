@@ -6,9 +6,12 @@ In this lab you train deep learning models built with Keras and a Tensorflow bac
 1. In your virtual machine expand the folder `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\05-deep-learning`.<br/>
 2. To run a lab, start Visual Studio Code from taskbar and click on **Open folder**:<br/>
     <img src="images/code.jpg"/><br/>
+```
+Please install if you are prompted to install Python. Ignore other extensions because we don't require for this lab.
+```
 3. Select `05-deep-learning` folder which is under `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\`<br/>
     <img src="images/ana3.jpg"/><br/>
-4. Select the `05-deep-learning.py` python file from **Explorer**
+4. Select the `05-deep-learning.py` python file from **Explorer**<br/>
 5. For Interpreter command go to **View** and Select **Command Palette** (⇧⌘P).<br/>
     <img src="images/ana4.jpg"/><br/>
 6. Click on **Python: Select Interpreter**. This will take 4-5 minutes<br/>
