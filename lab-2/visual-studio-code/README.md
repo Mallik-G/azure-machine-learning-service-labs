@@ -11,7 +11,10 @@ In this lab you will use the capabilities of the Azure Machine Learning service 
 4. To run a lab, start Visual Studio Code from taskbar and click on **Open Folder**:<br/>
     <img src="images/code.jpg"/><br/>
 5. Select `02-model-management` folder which is under `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\`<br/>
-    <img src="images/model02.jpg"/><br/>   
+    <img src="images/model02.jpg"/><br/>
+```
+Please install if you are prompted to install Python. Ignore other extensions because we don't require for this lab.
+```
 6. Select the `02-model-management.py` python file from **Explorer**
 7. For Interpreter command go to **View** and Select **Command Palette** (⇧⌘P).<br/>
     <img src="images/lab2.jpg"/><br/>
