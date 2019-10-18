@@ -39,7 +39,7 @@ Please install if you are prompted to install Python. Ignore other extensions be
     <img src="images/vs9.jpg"/><br/>
 6. Now, let's get a sense for how accurate the model is. Execute **Step 6**. What was your model's accuracy?<br/>
     <img src="images/vs11.jpg"/><br/>
-7. One thing that can affect the model's performance is how much data of all the labeled training data available is used to train the model. In **Step 7**, you define a method that uses train_test_split from Scikit-Learn that will enable you to split the data using different percentages. Execute **Step 7** to register this function.
+7. One thing that can affect the model's performance is how much data of all the labeled training data available is used to train the model. In **Step 7**, you define a method that uses train_test_split from Scikit-Learn that will enable you to split the data using different percentages. Execute **Step 7** to register this function.<br/>
     <img src="images/vs12.jpg"/><br/>
 
 ## Exercise 3 - Use Azure Machine Learning to log performance metrics
@@ -50,15 +50,15 @@ In the steps that follow, you will train multiple models using different sizes o
    <img src="images/cred2.jpg"/><br/>
 3. All Azure Machine Learning entities are organized within a Workspace. You can create an AML Workspace in the Azure Portal, but as the code in Step 9 shows, you can also create a Workspace directly from code. Set the values for '`subscription_id`, `resource_group`, `workspace_nam` and `workspace_region` as directed by the comments. Set the `workspace_region` as the per your resource group region.<br/>
    <img src="images/eastus.jpg"/><br/>
-3. Execute **Step 9**. You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detali Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
+4. Execute **Step 9**. You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detali Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
    <img src="images/sign.jpg"/><br/>
- * Copy the **Password** from **Environment Detali Page** and Paste in Sign in page
+5. Copy the **Password** from **Environment Detali Page** and Paste in Sign in page<br/>
    <img src="images/pass.jpg"/><br/>   
-5. Check the Output in **Python Interactive**
+6. Check the Output in **Python Interactive**
    <img src="images/vs13.jpg"/><br/>
-4. To begin capturing metrics, you must first create an Experiment and then call `start_logging()` on that Experiment. The return value of this call is a Run. This root run can have other child runs. When you are finished with an experiment run, use `complete()` to close out the root run. Execute **Step 10** to train four different models using differing amounts of training data and log the results to Azure Machine Learning.<br/>
+7. To begin capturing metrics, you must first create an Experiment and then call `start_logging()` on that Experiment. The return value of this call is a Run. This root run can have other child runs. When you are finished with an experiment run, use `complete()` to close out the root run. Execute **Step 10** to train four different models using differing amounts of training data and log the results to Azure Machine Learning.<br/>
    <img src="images/vs14.jpg"/><br/>
-5. Now that you have captured history for various runs, you can review the runs. You could use the Azure Portal for this - go to the Azure Portal, find your Azure Machine Learning Workspace, select Experiments and select the UsedCars_Experiment. However, in this case we will use the AML SDK to query for the runs. Select and execute **Step 11** to view the runs and their status.<br/>
+8. Now that you have captured history for various runs, you can review the runs. You could use the Azure Portal for this - go to the Azure Portal, find your Azure Machine Learning Workspace, select Experiments and select the UsedCars_Experiment. However, in this case we will use the AML SDK to query for the runs. Select and execute **Step 11** to view the runs and their status.<br/>
     <img src="images/vs15.jpg"/><br/>
 
 ## Exercise 4 - Train remotely using AML Compute
@@ -81,5 +81,5 @@ Minimum number of nodes requested have been provisioned
 3. Next, you will need to create a training script that is similar to the code you have executed locally to train the model. Open `training/train.py` and read it. You do not need to execute this script, as you will send it to AML Compute for execution.<br/>
 4. Return to `01_model_training.py`. You will create an estimator that describes the configuration of the job that will execute your model training script. Execute **Step 14** to create this estimator.<br/>
     <img src="images/vs01.jpg"/><br/>
-5. As the last step, submit the job using the `submit()` method of the Experiment object. Execute **Step 15** to remotely execute your training script. The output you should see will begin with the creation of a Docker Container that contains your configured dependencies, followed by the execution of your training script.
+5. As the last step, submit the job using the `submit()` method of the Experiment object. Execute **Step 15** to remotely execute your training script. The output you should see will begin with the creation of a Docker Container that contains your configured dependencies, followed by the execution of your training script.<br/>
     <img src="images/vs16.jpg"/><br/>
