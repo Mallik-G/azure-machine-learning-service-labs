@@ -9,7 +9,7 @@ In this lab you will setup the Azure Machine Learning service from code and crea
 <img src="images/train.jpg"/><br/>
 4. To run a lab, start Visual Studio Code from taskbar and click on **Open folder**:<br/>
 <img src="images/code.jpg"/><br/>
-5. Select `01-model-training` folder which is under `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\`
+5. Select `01-model-training` folder which is under `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\`<br/>
 <img src="images/visual.jpg"/><br/>
 ``
 Please install if you are prompted to install Python. Ignore other extensions because we don't require for this lab.
