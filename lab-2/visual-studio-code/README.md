@@ -10,6 +10,9 @@ In this lab you will use the capabilities of the Azure Machine Learning service 
 <img src="images/train.jpg"/><br/>
 4. To run a lab, start Visual Studio Code from taskbar and click on **Open Folder**:<br/>
 <img src="images/code.jpg"/><br/>
+``
+Please install if you are prompted to install Python. Ignore other extensions because we don't require for this lab.
+``
 5. Select `02-model-management` folder which is under `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\`<br/>
 <img src="images/model02.jpg"/><br/>
 6. Select the `02-model-management.py` python file from **Explorer**<br/>
@@ -32,11 +35,10 @@ This lab builds upon the lessons learned in the previous lab, but is self contai
 3. In this step, Get the values for **subscription_id**, **resource_group** and **worspace_region** from your **Environment Detail Page**<br/>
 <img src="images/cred2.jpg"/><br/>
 4. Set the values for **subscription_id**, **resource_group**, **workspace_name** and **workspace_region**.<br/>
- * Set the **workspace_region** as the per your resource group region
 <img src="images/mod.jpg"/><br/>
-6. With the Workspace retrieved, we will train 3 different models using different subsets of the training data. **Execute** Step #3. You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detali Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
+5. With the Workspace retrieved, we will train 3 different models using different subsets of the training data. **Execute** Step #3. You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detali Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
 <img src="images/sign.jpg"/><br/>
- * Copy the **Password** from **Environment Detali Page** and Paste in Sign in page<br/>
+6. Copy the **Password** from **Environment Detali Page** and Paste in Sign in page<br/>
 <img src="images/pass.jpg"/><br/>
 7. Check the Output in **Python Interactive**<br/>
 <img src="images/lab43.jpg"/><br/>
