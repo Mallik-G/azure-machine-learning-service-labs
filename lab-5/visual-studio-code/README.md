@@ -39,7 +39,7 @@ Please install if you are prompted to install Python. Ignore other extensions be
 <img src="images/deep.jpg"/><br/>
 3. Execute **Step 4** to register the model.You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detail Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
 <img src="images/sign.jpg"/><br/>
-4. Copy the **Password** from **Environment Detali Page** and Paste in Sign in page<br/>
+4. Copy the **Password** from **Environment Detail Page** and Paste in Sign in page<br/>
 <img src="images/pass.jpg"/><br/>
 5. Observe that you can register a neural network model with Azure Machine Learning in exactly the same way you would register a classical machine learning model.<br/>
 <img src="images/ana7.jpg"/><br/>
