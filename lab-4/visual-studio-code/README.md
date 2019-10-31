@@ -30,7 +30,7 @@ Please install if you are prompted to install Python. Ignore other extensions be
 This lab built upon the lessons learned in the previous lab but is self-contained so you work through this lab without having to run a previous lab.<br/><br/>
 1. Begin with **Step 1**. In this step you are loading the data prepared in previous labs and acquiring (or creating) an instance of your Azure Machine Learning Workspace. Copy **subscription_id**, **resource_group** and **workspace_region** from your Environment Detail Page will be using these values in below step<br/>
 <img src="images/cred2.jpg"/><br/>
-2. Set the values for **subscription_id**, **resource_group**, **workspace_name** and **workspace_region** that you copied in above step.<br/>
+2. Set the values for **subscription_id**, **resource_group** and **workspace_region** that you copied in above step. And give any unique name for **workspace_name**<br/>
 <img src="images/aut.jpg"/><br/>
 3. Execute **Step 1**. You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detail Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
 <img src="images/sign.jpg"/><br/>
