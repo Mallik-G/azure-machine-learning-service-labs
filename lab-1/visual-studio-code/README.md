@@ -46,13 +46,13 @@ Install Python if you get prompted for installing Python. Ignore other extension
 In the steps that follow, you will train multiple models using different sizes of training data and observe the impact on performance (accuracy). Each time you create new model, you are executing a Run in the terminology of Azure Machine Learning service. In this case, you will create one Experiment and execute multiple Runs within it, each with different training percentages (and resultant varying accuracies).
 
 1. Execute **Step 8** to quickly verify you have the Azure Machine Learning SDK installed. If you get a version number back without error, you are ready to proceed.<br/>
-2. Copy the `subscription_id`, `workspace_region` and `resource_group` from your **Environment Detail Page**<br/>
+2. Copy the `subscription_id`, `workspace_region` and `resource_group` from your **Environment Detail Page** will use these values in next step.<br/>
 <img src="images/cred2.jpg"/><br/>
 3. All Azure Machine Learning entities are organized within a Workspace. You can create an AML Workspace in the Azure Portal, but as the code in Step 9 shows, you can also create a Workspace directly from code. Set the values for '`subscription_id`, `resource_group`, `workspace_nam` and `workspace_region` as directed by the comments. Set the `workspace_region` as the per your resource group region.<br/>
 <img src="images/eastus.jpg"/><br/>
-4. Execute **Step 9**. You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detali Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
+4. Execute **Step 9**. You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detail Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
 <img src="images/sign.jpg"/><br/>
-5. Copy the **Password** from **Environment Detali Page** and Paste in Sign in page<br/>
+5. Copy the **Password** from **Environment Detali Page** and paste in Sign in page<br/>
 <img src="images/pass.jpg"/><br/>   
 6. Check the Output in **Python Interactive**<br/>
 <img src="images/vs13.jpg"/><br/>
