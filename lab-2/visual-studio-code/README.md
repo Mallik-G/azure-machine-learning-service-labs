@@ -34,7 +34,7 @@ This lab builds upon the lessons learned in the previous lab, but is self contai
 <img src="images/lab42.jpg"/><br/>
 3. Copy **subscription_id**, **resource_group** and **worspace_region** from your **Environment Detail Page** will be using these values in below step<br/>
 <img src="images/cred2.jpg"/><br/>
-4. Set the values for **subscription_id**, **resource_group** and **workspace_region** that you copied in above step. And give any unique name for **workspace_name*.<br/>
+4. Set the values for **subscription_id**, **resource_group** and **workspace_region** that you copied in above step. And give any unique name for **workspace_name**.<br/>
 <img src="images/mod.jpg"/><br/>
 5. With the Workspace retrieved, we will train 3 different models using different subsets of the training data. **Execute** Step #3. You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detail Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
 <img src="images/sign.jpg"/><br/>
