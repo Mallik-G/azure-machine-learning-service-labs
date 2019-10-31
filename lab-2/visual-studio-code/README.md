@@ -3,7 +3,7 @@
 In this lab you will use the capabilities of the Azure Machine Learning service to collect model performance metrics and to capture model version, as well as query the experimentation run history to retrieve captured metrics. 
 
 ## Exercise 1 - Get oriented to the lab files
-1. On your local computer expand the folder `C:\labfiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\02-model-management`.<br/>
+1. On your virtual machine expand the folder `C:\labfiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\02-model-management`.<br/>
 2. Expand the `data` folder. This folder contains the CSV file `UsedCars_Affordability.csv` which contains the complete data set with labels (Affordable is 1 for affordable, 0 for not affordable).<br/>
 <img src="images/data1.jpg"/><br/>
 3. Expand `training`. This folder contains train.py which will be used later in the lab to train the model using a remote cluster provided by AML Compute.<br/>
@@ -23,7 +23,7 @@ Please install if you are prompted to install Python. Ignore other extensions be
 9.  Once you setup the python interpreter, select conda environmen `azure_automl`<br/>
 <img src="images/python.jpg"/><br/>
 10. `02-model-management.py` is the Python file you will step thru executing in this lab.<br/>
-11.  Next, follow the steps as outlined below **Exercises**. For executing each cell in below execises click on **Run Cell** i.e, just above the step for each steps as show below.<br/>
+11. To execute the cell in below exercises, click on the run cell i.e., above each step as per the image below.<br/>
 <img src="images/lab02.jpg"/><br/>
 
 ## Exercise 2 - Train a simple model locally
