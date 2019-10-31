@@ -23,7 +23,7 @@ Install Python if you get prompted for installing Python. Ignore other extension
 9. Once you setup the python interpreter, select conda environmen `azure_automl`<br/>
 <img src="images/vs3.jpg"/><br/>
 10. `01_model_training.py` is the Python file you will step through executing in this lab.<br/>
-11. For executing each cell in below execises click on **Run Cell** i.e, just above each steps as show below.<br/>
+11. For executing cells in below execises click on **Run Cell** i.e, just above each steps as shown in below image.<br/>
 <img src="images/vs4.jpg"/><br/>
 
 ## Exercise 2 - Train a simple model locally
