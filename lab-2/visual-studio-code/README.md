@@ -23,7 +23,7 @@ Install Python if you get prompted for installing Python. Ignore other extension
 9.  Once you setup the python interpreter, select conda environmen `azure_automl`<br/>
 <img src="images/python.jpg"/><br/>
 10. `02-model-management.py` is the Python file you will step thru executing in this lab.<br/>
-11. To execute the cell in below exercises, click on the run cell i.e., above each step as per the image below.<br/>
+11. Refer below image for executing each cell i.e, just above all steps in below exercises..<br/>
 <img src="images/lab02.jpg"/><br/>
 
 ## Exercise 2 - Train a simple model locally
@@ -38,7 +38,7 @@ This lab builds upon the lessons learned in the previous lab, but is self contai
 <img src="images/mod.jpg"/><br/>
 5. With the Workspace retrieved, we will train 3 different models using different subsets of the training data. **Execute** Step #3. You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detail Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
 <img src="images/sign.jpg"/><br/>
-6. Copy the **Password** from **Environment Detali Page** and Paste in Sign in page<br/>
+6. Copy the **Password** from **Environment Detail Page** and Paste in Sign in page<br/>
 <img src="images/pass.jpg"/><br/>
 7. Check the Output in **Python Interactive**<br/>
 <img src="images/lab43.jpg"/><br/>
