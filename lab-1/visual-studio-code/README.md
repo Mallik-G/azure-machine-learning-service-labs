@@ -12,18 +12,18 @@ In this lab you will setup the Azure Machine Learning service from code and crea
 5. Select `01-model-training` folder which is under `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\`<br/>
 <img src="images/visual.jpg"/><br/>
 ``
-Please install if you are prompted to install Python. Ignore other extensions because we don't require for this lab.
+Install Python if you get prompted for installing Python. Ignore other extensions because we don't require for this lab.
 ``
 6. Select the `01_model_training.py` python file from **Explorer**<br/>
 <img src="images/visual1.jpg"/><br/>
 7. For Interpreter command go to **View** and Select **Command Palette** (⇧⌘P).<br/>
 <img src="images/vs1.jpg"/><br/>
-8. Click on **Python: Select Interpreter**. This will take 4-5 minutes<br/>
+8. Click on **Python: Select Interpreter**. This will take 4-5 minutes.<br/>
 <img src="images/vs2.jpg"/><br/>
 9. Once you setup the python interpreter, select conda environmen `azure_automl`<br/>
 <img src="images/vs3.jpg"/><br/>
 10. `01_model_training.py` is the Python file you will step through executing in this lab.<br/>
-11. Next, follow the steps as outlined below **Exercises**. For executing each cell in below execises click on **Run Cell** i.e, just above the step for each steps as show below.<br/>
+11. For executing each cell in below execises click on **Run Cell** i.e, just above each steps as show below.<br/>
 <img src="images/vs4.jpg"/><br/>
 
 ## Exercise 2 - Train a simple model locally
