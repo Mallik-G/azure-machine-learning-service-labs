@@ -19,7 +19,7 @@ Please install if you are prompted to install Python. Ignore other extensions be
 7.  Once you setup the python interpreter, select conda environmen `azure_automl`<br/>
 <img src="images/ana0.jpg"/><br/>
 8. `05-deep-learning.py` is the Python file you will step thru executing in this lab.<br/>
-9. Next, follow the steps as outlined below **Exercises**. For executing each cell in below execises click on **Run Cell** i.e, just above the step for each steps as show below.<br/>
+9. Refer below image for executing each cell i.e, just above all steps in below exercises.<br/>
 <img src="images/lab5.jpg"/><br/>
 
 ## Exercise 2 - Train an autoencoder using GPU
@@ -33,11 +33,11 @@ Please install if you are prompted to install Python. Ignore other extensions be
 
 ## Exercise 3 - Register the neural network model with Azure Machine Learning
 
-1. In this step, Get the values for `subscription_id`, `resource_group` and `workspace_region` from your **Environment Detail Page**<br/>
+1. Copy values for `subscription_id`, `resource_group` and `workspace_region` from your **Environment Detail Page** that are required for next step<br/>
 <img src="images/cred2.jpg"/><br/>
-2. Set the values for subscription_id, resource_group, workspace_name and workspace_region.<br/>
+2. Set the values for `subscription_id`, `resource_group`, `workspace_name` and `workspace_region`.<br/>
 <img src="images/deep.jpg"/><br/>
-3. Execute **Step 4** to register the model.You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detali Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
+3. Execute **Step 4** to register the model.You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detail Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
 <img src="images/sign.jpg"/><br/>
 4. Copy the **Password** from **Environment Detali Page** and Paste in Sign in page<br/>
 <img src="images/pass.jpg"/><br/>
