@@ -22,7 +22,7 @@ Please install if you are prompted to install Python. Ignore other extensions be
 8. Once you setup the python interpreter, select conda environmen `azure_automl`<br/>
 <img src="images/python.jpg"/><br/>
 9. `04_automl.py` is the Python file you will step thru executing in this lab.<br/>
-10. To execute the cell in below exercises, click on the run cell i.e., above each step as per the image below.<br/>
+10. Refer below image for executing each cell i.e, just above all steps in below exercises<br/>
 <img src="images/lab04.jpg"/><br/>
 
 ## Exercise 2 - Train a model using AutoML
@@ -34,7 +34,7 @@ This lab built upon the lessons learned in the previous lab but is self-containe
 <img src="images/aut.jpg"/><br/>
 3. Execute **Step 1**. You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detail Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
 <img src="images/sign.jpg"/><br/>
-4. Copy the **Password** from **Environment Detali Page** and Paste in Sign in page<br/>
+4. Copy the **Password** from **Environment Detail Page** and Paste in Sign in page<br/>
 <img src="images/pass.jpg"/><br/>
 5. Check the Output in **Python Interactive**<br/>
 <img src="images/lab21.jpg"/><br/>
