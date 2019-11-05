@@ -34,7 +34,7 @@ Please install if you are prompted to install Python. Ignore other extensions be
 ## Exercise 3 - Register the neural network model with Azure Machine Learning
 
 1. Copy values for `subscription_id`, `resource_group` and `workspace_region` from your **Environment Detail Page** that are required for next step<br/>
-<img src="images/cred2.jpg"/><br/>
+<img src="images/env.jpg"/><br/>
 2. Set the values for **subscription_id**, **resource_group** and **workspace_region** that you copied in above step. And give any unique name for **workspace_name**.<br/>
 <img src="images/deep.jpg"/><br/>
 3. Execute **Step 4** to register the model.You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detail Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
