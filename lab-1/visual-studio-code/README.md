@@ -2,7 +2,7 @@
 In this lab you will setup the Azure Machine Learning service from code and create a classical machine learning model that logs metrics collected during model training.
 
 ## Exercise 1 - Get oriented to the lab files
-1. In your virtual machine expand the folder `01-model-training` which is under `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\01-model-training`
+1. In your virtual machine expand the folder `01-model-training` which is under `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\01-model-training`<br/>
 2. Expand the `data` folder. This folder contains two CSV files. `UsedCars_Clean.csv` represents the unlabeled data and `UsedCars_Affordability.csv` contains the complete data set with labels (Affordable is 1 for affordable, 0 for not affordable).<br/>
 <img src="images/data.jpg"/><br/>
 3. Expand `training`. This folder contains train.py which will be used later in the lab to train the model using a remote cluster provided by AML Compute.<br/>
@@ -13,17 +13,17 @@ In this lab you will setup the Azure Machine Learning service from code and crea
 <img src="images/visual.jpg"/><br/>
 ``
 Install Python if you get prompted for installing Python. Ignore other extensions because we don't require for this lab.
-``
-6. Select the `01_model_training.py` python file from **Explorer**<br/>
+``<br/>
+6. In visual studio open `01_model_training.py` python file for a lab<br/>
 <img src="images/visual1.jpg"/><br/>
-7. For Interpreter command go to **View** and Select **Command Palette** (⇧⌘P).<br/>
+7. For setting up Interpreter go to **View** and Select **Command Palette** (⇧⌘P).<br/>
 <img src="images/vs1.jpg"/><br/>
-8. Click on **Python: Select Interpreter**. This will take 4-5 minutes.<br/>
+8. Use **Select Interpreter** command from the Command Palette (⇧⌘P). This may take 4-5 minutes.<br/>
 <img src="images/vs2.jpg"/><br/>
-9. Once you setup the python interpreter, select conda environmen `azure_automl`<br/>
+9. Now, select the `azure_automl` conda environment as your interpreter<br/>
 <img src="images/vs3.jpg"/><br/>
 10. `01_model_training.py` is the Python file you will step through executing in this lab.<br/>
-11. Refer below image for executing each cell i.e, just above all steps in below exercises.<br/>
+11. Refer below image for executing each cell i.e, just above each step in below exercises.<br/>
 <img src="images/vs4.jpg"/><br/>
 
 ## Exercise 2 - Train a simple model locally
