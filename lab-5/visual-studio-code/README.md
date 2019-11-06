@@ -12,11 +12,11 @@ Please install if you are prompted to install Python. Ignore other extensions be
 3. Select `05-deep-learning` folder which is under `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\`<br/>
 <img src="images/ana3.jpg"/><br/>
 4. Select the `05-deep-learning.py` python file from **Explorer**<br/>
-5. For Interpreter command go to **View** and Select **Command Palette** (⇧⌘P).<br/>
+5. For setting up Interpreter go to View and Select Command Palette (⇧⌘P)<br/>
 <img src="images/ana4.jpg"/><br/>
-6. Click on **Python: Select Interpreter**. This will take 4-5 minutes<br/>
+6. Use **Select Interpreter** command from the Command Palette (⇧⌘P). This may take 4-5 minutes.<br/>
 <img src="images/select.jpg"/><br/>
-7.  Once you setup the python interpreter, select conda environmen `azure_automl`<br/>
+7. Now, select the `azure_automl` conda environment as your interpreter.<br/>
 <img src="images/ana0.jpg"/><br/>
 8. `05-deep-learning.py` is the Python file you will step thru executing in this lab.<br/>
 9. Refer below image for executing each cell i.e, just above all steps in below exercises.<br/>
