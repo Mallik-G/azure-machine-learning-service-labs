@@ -10,7 +10,7 @@ In this lab you will setup the Azure Machine Learning service from code and crea
 4. To run a lab, start Visual Studio Code from taskbar and click on **Open folder**:<br/>
 <img src="images/code.jpg"/><br/>
 5. Select `01-model-training` folder which is under `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\`<br/>
-<img src="images/visual.jpg"/><br/>
+<img src="images/visual.jpg"/><br/><br/>
 ``
 Install Python if you get prompted for installing Python. Ignore other extensions because we don't require for this lab.
 ``<br/>
@@ -50,7 +50,7 @@ In the steps that follow, you will train multiple models using different sizes o
 <img src="images/env.jpg"/><br/>
 3. All Azure Machine Learning entities are organized within a Workspace. You can create an AML Workspace in the Azure Portal, but as the code in Step 9 shows, you can also create a Workspace directly from code. Set the values for **subscription_id**, **resource_group** and **workspace_region** that you copied in above step. And give any unique name for **workspace_name**.<br/>
 <img src="images/eastus.jpg"/><br/>
-4. Execute **Step 9**. You will be prompted to log in to your Azure. Use the **Azure credentials** that are given in your **Environment Detail Page**. If you didn't get **Login** prompt go to **Internet Explorer**<br/>
+4. Execute **Step 9**. You will be prompted to login to Azure Portal. Use the **Azure credentials** that are given in your **Environment Detail Page**. If you didn't get **Login** prompt go to **Internet Explorer** and Sign In.<br/>
 <img src="images/sign.jpg"/><br/>
 5. Copy the **Password** from **Environment Detail Page** and paste in Sign in page<br/>
 <img src="images/pass.jpg"/><br/>   
