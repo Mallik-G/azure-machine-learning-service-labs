@@ -9,21 +9,21 @@ In this lab you will use the capabilities of the Azure Machine Learning service 
 3. Expand `training`. This folder contains train.py which will be used later in the lab to train the model using a remote cluster provided by AML Compute.<br/>
 <img src="images/train.jpg"/><br/>
 4. To run a lab, start Visual Studio Code from taskbar and click on **Open Folder**:<br/>
-<img src="images/code.jpg"/><br/>
+<img src="images/code.jpg"/><br/><br/>
 ``
 Install Python if you get prompted for installing Python. Ignore other extensions because we don't require for this lab.
-``
+``<br/>
 5. Select `02-model-management` folder which is under `C:\LabFiles\azure-machine-learning-service-labs-master\starter-artifacts\visual-studio-code\`<br/>
 <img src="images/model02.jpg"/><br/>
-6. Select the `02-model-management.py` python file from **Explorer**<br/>
-7. For Interpreter command go to **View** and Select **Command Palette** (⇧⌘P).<br/>
+6. Open the `02-model-management.py` python file for performing lab.<br/>
+7. For setting up Interpreter go to View and Select Command Palette (⇧⌘P).<br/>
 <img src="images/lab2.jpg"/><br/>
-8. Click on **Python: Select Interpreter**. This will take 4-5 minutes<br/>
+8. Use **Select Interpreter** command from the Command Palette (⇧⌘P). This may take 4-5 minutes.<br/>
 <img src="images/select.jpg"/><br/>
-9.  Once you setup the python interpreter, select conda environmen `azure_automl`<br/>
+9. Now, select the `azure_automl` conda environment as your interpreter.<br/>
 <img src="images/python.jpg"/><br/>
 10. `02-model-management.py` is the Python file you will step thru executing in this lab.<br/>
-11. Refer below image for executing each cell i.e, just above all steps in below exercises..<br/>
+11. Refer below image for executing each cell i.e, just above steps in below exercises..<br/>
 <img src="images/lab02.jpg"/><br/>
 
 ## Exercise 2 - Train a simple model locally
@@ -40,8 +40,9 @@ This lab builds upon the lessons learned in the previous lab, but is self contai
 <img src="images/sign.jpg"/><br/>
 6. Copy the **Password** from **Environment Detail Page** and Paste in Sign in page<br/>
 <img src="images/pass.jpg"/><br/>
-7. Check the Output in **Python Interactive**<br/>
+7. You can check the Output in Python Interactive and also in Azure Portal<br/>
 <img src="images/lab43.jpg"/><br/>
+<img src="images/azure.jpg"/><br/>
 
 ## Exercise 3 - Use Azure Machine Learning to query for performance metrics
 
