@@ -54,8 +54,9 @@ In the steps that follow, you will train multiple models using different sizes o
 <img src="images/sign.jpg"/><br/>
 5. Copy the **Password** from **Environment Detail Page** and paste in Sign in page<br/>
 <img src="images/pass.jpg"/><br/>   
-6. Check the Output in **Python Interactive**<br/>
+6. You can check the Output in **Python Interactive** and also in **Azure Portal**<br/>
 <img src="images/vs13.jpg"/><br/>
+<img src="images/azure.jpg"/><br/>
 7. To begin capturing metrics, you must first create an Experiment and then call `start_logging()` on that Experiment. The return value of this call is a Run. This root run can have other child runs. When you are finished with an experiment run, use `complete()` to close out the root run. Execute **Step 10** to train four different models using differing amounts of training data and log the results to Azure Machine Learning.<br/>
 <img src="images/vs14.jpg"/><br/>
 8. Now that you have captured history for various runs, you can review the runs. You could use the Azure Portal for this - go to the Azure Portal, find your Azure Machine Learning Workspace, select Experiments and select the UsedCars_Experiment. However, in this case we will use the AML SDK to query for the runs. Select and execute **Step 11** to view the runs and their status.<br/>
